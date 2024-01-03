@@ -1,12 +1,3 @@
-/*for(let liczba=20; liczba>0; liczba--){
-    console.log("Odliczanie: "+liczba)
-
-    if(liczba==1)
-    {
-        console.log("Happy New Year!")
-    }
-}
-*/
 function nwd(){
     var l1 = parseInt(document.getElementById("nwd1").value);
     var l2 = parseInt(document.getElementById("nwd2").value);
