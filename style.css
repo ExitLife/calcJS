@@ -1,0 +1,97 @@
+html{
+    font-size:100%;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(gory.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+h1{
+    color: whitesmoke;
+    font-size: 45px;
+    text-align: center;
+    padding: 30px;
+}
+form{
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    border: 5px solid whitesmoke;
+    border-radius: 5%;
+    padding: 20px;
+}
+.przycisk{
+    margin-left: 23px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    margin-top: 7px;
+    width: 75px;
+    height: 75px;
+    font-size: 45px;
+    color:whitesmoke;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 10%;
+    transition-duration: 0.2s;
+}
+.przycisk:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+
+.tekst{
+    width:450px;
+    height:120px;
+    font-size: 65px;
+    color:whitesmoke;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 10%;
+}
+#zegar{
+    color: whitesmoke;
+    font-size: 32px;
+}
+footer{
+    text-align: center;
+    color:whitesmoke;
+
+}
+p{
+    font-size: 25px;
+}
+#nwd1, #nwd2{
+    width:125px;
+    height:44px;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 15%;
+    font-size: 28px;
+    color:whitesmoke;
+
+}
+#btnNWD{
+    width:75px;
+    height:44px;
+    background-color: transparent;
+    border: 3px solid whitesmoke;
+    border-radius: 15%;
+    transition-duration: 0.2s;
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+#btnNWD:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+#wynikNWD{
+    display: inline-block;
+}
